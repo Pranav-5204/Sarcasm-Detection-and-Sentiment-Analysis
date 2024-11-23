@@ -1,0 +1,71 @@
+{
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "65": {
+      "content": "[CLS]",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "66": {
+      "content": "[SEP]",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "67": {
+      "content": "[MASK]",
+      "lstrip": true,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "100": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": true,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "bos_token": "</s>",
+  "clean_up_tokenization_spaces": false,
+  "cls_token": "[CLS]",
+  "eos_token": "<s>",
+  "mask_token": "[MASK]",
+  "model_max_length": 4096,
+  "pad_token": "<pad>",
+  "sep_token": "[SEP]",
+  "sp_model_kwargs": {},
+  "tokenizer_class": "BigBirdTokenizer",
+  "unk_token": "<unk>"
+}
